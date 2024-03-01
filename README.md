@@ -2,7 +2,8 @@
 
 ## Description
 
-Employees-SQL-Project is a SQL project that explores and analyzes employee data. It includes tasks such as data exploration, data cleaning, and querying to gain insights into the dataset. The project utilizes various SQL queries ranging from simple to advanced, incorporating multiple joins and subqueries to uncover different aspects of the data.
+Employees-SQL-Project is a SQL project that explores and analyzes employee data. It includes tasks such as data exploration, data cleaning, and querying to gain insights into the dataset. The project utilizes various SQL queries ranging from simple to advanced, incorporating multiple joins and subqueries to uncover different aspects of the data.To create this project, I imported CSV files into MySQL Workbench and created a database. Then, I established primary keys (PK) and foreign keys (FK) to establish relationships between the tables.
+<img width="643" alt="Screenshot 2024-03-01 at 01 43 52" src="https://github.com/SabinaSad/Employees-SQL-Project/assets/122239926/3d9ad6c3-d9a1-4414-ab55-2099cc09b8b5">
 
 ## Features
 

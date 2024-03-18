@@ -68,7 +68,7 @@ GROUP BY e.firstname,e.lastname
 hAVING COUNT(DISTINCT l.locationID) > 1;
 
 
-#selectin min and max salary for each postion
+#selectin min and max salary for each position
 (select min(salary),max(salary),positionID from emp group by positionID);
 
 
@@ -84,7 +84,7 @@ select firstname,lastname,salary from emp where salary>(select avg(salary)from e
 #Using Subquery.This query show the employers who earn less than avg salary
 select firstname,lastname,salary from emp where salary<=(select avg(salary)from emp);
 
-#finding employees whoes position title is "Manager" with Inner Join
+#finding employees whose position title is "Manager" with Inner Join
 select e.lastname,e.firstname, e.positionID,p.positiontitle from emp e join position p on e.positionID=p.positionID where 
 p.positiontitle="Manager";
 
